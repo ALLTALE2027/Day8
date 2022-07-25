@@ -15,7 +15,7 @@ n6=0
 throw=1
 
 
-while [[ (($n1 -lt 10)) && (($n2 -lt 10)) && (($n3 -lt 10)) && (($n4 -lt 10)) && (($n5 -lt 10)) && (($n6 -lt 10)) ]]
+while [[ ($n1 -lt 10) && ($n2 -lt 10) && ($n3 -lt 10) && ($n4 -lt 10) && ($n5 -lt 10) && ($n6 -lt 10) ]]
 do
 		random=$(($RANDOM%6 + 1))
 		diece[throw++]=$random
